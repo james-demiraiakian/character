@@ -2,7 +2,7 @@ import React from 'react';
 
 import './Display.css';
 
-export default function Display({ head, body, legs, phrase }) {
+export default function Display({ head, body, legs }) {
   return (
     <div className="display">
       <div>
@@ -14,7 +14,6 @@ export default function Display({ head, body, legs, phrase }) {
       <div>
         <img className="legs" src={`${process.env.PUBLIC_URL}/images/${legs}.png`} />
       </div>
-      <span className="phrase">{phrase}</span>
     </div>
   );
 }

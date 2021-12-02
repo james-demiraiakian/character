@@ -1,33 +1,32 @@
-import React from 'react';
+// import React from 'react';
 
-import './Counter.css';
+// import './Counter.css';
 
-export default function Counter({
-  setHead,
-  setHeadCount,
-  setBody,
-  setBodyCount,
-  setLegs,
-  setLegsCount,
-}) {
-  const handleHead = (e) => {
-    setHead(e.target.value);
-    setHeadCount((prevState) => prevState + 1);
-  };
+// export default function Counter({
+//   headCount,
+//   setHeadCount,
+//   bodyCount,
+//   setBodyCount,
+//   legsCount,
+//   setLegsCount,
+// }) {
+//   const handleHead = () => {
+//     setHeadCount((prevState) => prevState + 1);
+//   };
 
-  const handleBody = (e) => {
-    setBody(e.target.value);
-    setBodyCount((prevState) => prevState + 1);
-  };
+//   const handleBody = () => {
+//     setBodyCount((prevState) => prevState + 1);
+//   };
 
-  const handleLegs = (e) => {
-    setLegs(e.target.value);
-    setLegsCount((prevState) => prevState + 1);
-  };
+//   const handleLegs = () => {
+//     setLegsCount((prevState) => prevState + 1);
+//   };
 
-  return (
-    <div className="counter">
-      <span className="headCount"></span>
-    </div>
-  );
-}
+//   return (
+//     <div className="counter">
+//       <span className="head-count">Your head has changed {headCount} times</span>
+//       <span className="body-count">Your body has changed {bodyCount} times</span>
+//       <span className="legs-count">Your legs have changed {legsCount} times</span>
+//     </div>
+//   );
+// }
