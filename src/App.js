@@ -4,12 +4,11 @@ import './App.css';
 
 import Editor from './components/Editor/Editor';
 import Display from './components/Display/Display';
-import Counter from './components/Counter/Counter';
 
 function App() {
-  const [head, setHead] = useState('');
-  const [body, setBody] = useState('');
-  const [legs, setLegs] = useState('');
+  const [head, setHead] = useState('placeholder');
+  const [body, setBody] = useState('placeholder');
+  const [legs, setLegs] = useState('placeholder');
   const [headCount, setHeadCount] = useState(0);
   const [bodyCount, setBodyCount] = useState(0);
   const [legsCount, setLegsCount] = useState(0);
@@ -38,7 +37,7 @@ function App() {
         }}
       />
       <Display {...{ head, body, legs }} />
-      <div>
+      <div className="phrases">
         Current List of Phrases:
         {phraseList.map((e) => (
           <p key={e}>{e}</p>

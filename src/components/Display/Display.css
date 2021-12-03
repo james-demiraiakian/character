@@ -1,11 +1,35 @@
+.display {
+  position: absolute;
+  top: 7vw;
+  left: 50vw;
+  background-image: url('../../border.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 500px;
+  height: 520px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
 .head {
+  position: absolute;
+  left: 14.5vw;
+  top: 3.8vw;
   height: 50px;
 }
 
 .body {
+  position: absolute;
+  left: 8.5vw;
+  top: 6.9vw;
   height: 200px;
 }
 
 .legs {
-  height: 200px;
+  position: absolute;
+  top: 19.8vw;
+  left: 15vw;
+  height: 100px;
 }

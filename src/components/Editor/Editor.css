@@ -1,0 +1,30 @@
+.inputs {
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  color: white;
+  text-shadow: 0 0 1px black, 0 0 1px black, 0 0 1px black, 0 0 1px black, 0 0 1px black,
+    0 0 1px black, 0 0 1px black, 0 0 1px black, 0 0 1px black;
+  display: flex;
+  flex-direction: column;
+  height: 19vw;
+  width: 40vw;
+  align-items: center;
+  margin-top: 10vw;
+}
+
+.form {
+  margin: 10px;
+  align-items: center;
+}
+
+.counter {
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  color: white;
+  text-shadow: 0 0 1px black, 0 0 1px black, 0 0 1px black, 0 0 1px black, 0 0 1px black,
+    0 0 1px black, 0 0 1px black, 0 0 1px black, 0 0 1px black;
+  display: flex;
+  flex-direction: column;
+  width: 41vw;
+  align-items: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
