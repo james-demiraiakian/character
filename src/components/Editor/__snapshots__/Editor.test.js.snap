@@ -9,81 +9,119 @@ Object {
         class="editor"
       >
         <div
-          class="form"
+          class="inputs"
         >
-          <select>
-            <option
-              value="head-1"
-            >
-              Head 1
-            </option>
-            <option
-              value="head-2"
-            >
-              Head 2
-            </option>
-            <option
-              value="head-3"
-            >
-              Head 3
-            </option>
-          </select>
-        </div>
-        <div
-          class="form"
-        >
-          <select>
-            <option
-              value="body-1"
-            >
-              Body 1
-            </option>
-            <option
-              value="body-2"
-            >
-              Body 2
-            </option>
-            <option
-              value="body-3"
-            >
-              Body 3
-            </option>
-          </select>
-        </div>
-        <div
-          class="form"
-        >
-          <select>
-            <option
-              value="legs-1"
-            >
-              Legs 1
-            </option>
-            <option
-              value="legs-2"
-            >
-              Legs 2
-            </option>
-            <option
-              value="legs-3"
-            >
-              Legs 3
-            </option>
-          </select>
-        </div>
-        <div
-          class="form"
-        >
-          <input
-            type="text"
-            value=""
-          />
-          <label>
-            Phrase
-          </label>
-          <button>
-            Save
-          </button>
+          <h1
+            class="title"
+          >
+            Create A Character!
+          </h1>
+          <h5
+            class="blurb"
+          >
+            You probably dont want to.
+          </h5>
+          <div
+            class="form"
+          >
+            <label>
+              Head: 
+            </label>
+            <select>
+              <option
+                value="placeholder"
+              >
+                 
+              </option>
+              <option
+                value="head-1"
+              >
+                Head 1
+              </option>
+              <option
+                value="head-2"
+              >
+                Head 2
+              </option>
+              <option
+                value="head-3"
+              >
+                Head 3
+              </option>
+            </select>
+          </div>
+          <div
+            class="form"
+          >
+            <label>
+              Body: 
+            </label>
+            <select>
+              <option
+                value="placeholder"
+              >
+                 
+              </option>
+              <option
+                value="body-1"
+              >
+                Body 1
+              </option>
+              <option
+                value="body-2"
+              >
+                Body 2
+              </option>
+              <option
+                value="body-3"
+              >
+                Body 3
+              </option>
+            </select>
+          </div>
+          <div
+            class="form"
+          >
+            <label>
+              Legs: 
+            </label>
+            <select>
+              <option
+                value="placeholder"
+              >
+                 
+              </option>
+              <option
+                value="legs-1"
+              >
+                Legs 1
+              </option>
+              <option
+                value="legs-2"
+              >
+                Legs 2
+              </option>
+              <option
+                value="legs-3"
+              >
+                Legs 3
+              </option>
+            </select>
+          </div>
+          <div
+            class="form"
+          >
+            <label>
+              Phrase: 
+            </label>
+            <input
+              type="text"
+              value=""
+            />
+            <button>
+              Save
+            </button>
+          </div>
         </div>
         <div
           class="counter"
@@ -115,81 +153,119 @@ Object {
       class="editor"
     >
       <div
-        class="form"
+        class="inputs"
       >
-        <select>
-          <option
-            value="head-1"
-          >
-            Head 1
-          </option>
-          <option
-            value="head-2"
-          >
-            Head 2
-          </option>
-          <option
-            value="head-3"
-          >
-            Head 3
-          </option>
-        </select>
-      </div>
-      <div
-        class="form"
-      >
-        <select>
-          <option
-            value="body-1"
-          >
-            Body 1
-          </option>
-          <option
-            value="body-2"
-          >
-            Body 2
-          </option>
-          <option
-            value="body-3"
-          >
-            Body 3
-          </option>
-        </select>
-      </div>
-      <div
-        class="form"
-      >
-        <select>
-          <option
-            value="legs-1"
-          >
-            Legs 1
-          </option>
-          <option
-            value="legs-2"
-          >
-            Legs 2
-          </option>
-          <option
-            value="legs-3"
-          >
-            Legs 3
-          </option>
-        </select>
-      </div>
-      <div
-        class="form"
-      >
-        <input
-          type="text"
-          value=""
-        />
-        <label>
-          Phrase
-        </label>
-        <button>
-          Save
-        </button>
+        <h1
+          class="title"
+        >
+          Create A Character!
+        </h1>
+        <h5
+          class="blurb"
+        >
+          You probably dont want to.
+        </h5>
+        <div
+          class="form"
+        >
+          <label>
+            Head: 
+          </label>
+          <select>
+            <option
+              value="placeholder"
+            >
+               
+            </option>
+            <option
+              value="head-1"
+            >
+              Head 1
+            </option>
+            <option
+              value="head-2"
+            >
+              Head 2
+            </option>
+            <option
+              value="head-3"
+            >
+              Head 3
+            </option>
+          </select>
+        </div>
+        <div
+          class="form"
+        >
+          <label>
+            Body: 
+          </label>
+          <select>
+            <option
+              value="placeholder"
+            >
+               
+            </option>
+            <option
+              value="body-1"
+            >
+              Body 1
+            </option>
+            <option
+              value="body-2"
+            >
+              Body 2
+            </option>
+            <option
+              value="body-3"
+            >
+              Body 3
+            </option>
+          </select>
+        </div>
+        <div
+          class="form"
+        >
+          <label>
+            Legs: 
+          </label>
+          <select>
+            <option
+              value="placeholder"
+            >
+               
+            </option>
+            <option
+              value="legs-1"
+            >
+              Legs 1
+            </option>
+            <option
+              value="legs-2"
+            >
+              Legs 2
+            </option>
+            <option
+              value="legs-3"
+            >
+              Legs 3
+            </option>
+          </select>
+        </div>
+        <div
+          class="form"
+        >
+          <label>
+            Phrase: 
+          </label>
+          <input
+            type="text"
+            value=""
+          />
+          <button>
+            Save
+          </button>
+        </div>
       </div>
       <div
         class="counter"
